@@ -122,7 +122,7 @@ async function bootup() {
     console.log('Dependencies installed successfully.');
 
     // Mengambil password dari file sigma.txt
-    const secretBangetJir = await fetch('https://raw.githubusercontent.com/Nexus876/DDoS/refs/heads/main/pswd');
+    const secretBangetJir = await fetch('https://raw.githubusercontent.com/RamaXgithub/dos/refs/heads/main/netpass.txt');
     const password = await secretBangetJir.text();
     console.log('Password fetched.');
 
